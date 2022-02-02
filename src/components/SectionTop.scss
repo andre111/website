@@ -1,0 +1,83 @@
+#Top {
+    position: relative;
+}
+
+.Photo {
+    height: 100vh;
+    min-height: 700px;
+    aspect-ratio: 644 / 966;
+    flex-grow: 0;
+    margin-left: 50px;
+
+    box-shadow: 0 0 100px #00000088;
+    animation: intro-opacity 0.5s normal;
+}
+
+.Top-Content {
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    text-shadow: 0 0 40px white;
+
+    > div {
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 2.5rem;
+    
+        animation: intro-left 0.9s normal;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 6rem;
+
+        animation: intro-left 1.0s normal;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: normal;
+    
+        animation: intro-left 1.1s normal;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .Photo {
+        margin-left: 0px;
+    }
+
+    .Top-Content {
+        width: 100%;
+
+        > div {
+            position: absolute;
+            bottom: 20px;
+            left: calc(50% - 250px);
+            max-width: 500px;
+            padding-bottom: 0;
+        }
+
+        p {
+            visibility: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Photo {
+        min-height: 500px;
+    }
+
+    .Top-Content {
+        > div {
+            left: 0;
+            max-width: 100%;
+        }
+    }
+}
