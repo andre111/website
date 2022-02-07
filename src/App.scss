@@ -38,8 +38,8 @@ body {
     &::before {
         position: fixed;
         z-index: -100;
-        top: calc(100vh - 970px);
-        right: 300px;
+        top: calc(100vh - 900px);
+        right: 340px;
     
         content: 'A';
     }
@@ -47,8 +47,8 @@ body {
     &::after {
         position: fixed;
         z-index: -101;
-        top: calc(100vh - 800px);
-        right: -50px;
+        top: calc(100vh - 700px);
+        right: -60px;
     
         content: 'S';
     }
