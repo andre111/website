@@ -11,12 +11,12 @@ var lang = 'de_DE';
 function detectLanguage() {
     // read stored language
     lang = localStorage.getItem('lang');
-    if(lang) return;
+    if (lang) return;
 
     // detect language
     var hasGerman = false;
-    for(const userLang of navigator.languages) {
-        if(userLang === 'de' || userLang.startsWith('de-') || userLang.startsWith('de_')) {
+    for (const userLang of navigator.languages) {
+        if (userLang === 'de' || userLang.startsWith('de-') || userLang.startsWith('de_')) {
             hasGerman = true;
         }
     }
@@ -38,7 +38,7 @@ export function setLanguage(l) {
     //TODO: this really needs a better way of rerendering
     ReactDOM.render(
         <React.StrictMode>
-          <App />
+            <App />
         </React.StrictMode>,
         document.getElementById('root')
     );

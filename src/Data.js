@@ -9,7 +9,7 @@ import { Linkedin, Github } from '@icons-pack/react-simple-icons';
 export const projects = [
     {
         name: "MAmbience",
-        technologies: [ "Java" ],
+        technologies: ["Java"],
         description: {
             en_US: "Minecraft Mod adding ambient sounds, particle effects and more based on the players surroundings",
             de_DE: "Minecraft Mod für Ambiente-Geräusche, Partikeleffekte und weiteres basierend auf der tatsächlichen Spielerumgebung"
@@ -19,17 +19,17 @@ export const projects = [
     },
     {
         name: "D20Server",
-        technologies: [ "Node", "Javascript", "CSS", "HTML" ],
+        technologies: ["Node", "Javascript", "CSS", "HTML"],
         description: {
             en_US: "Tool for playing P&P games online. Including Character Sheets, FOW, Dice Simulation, Voice Chat and more.",
             de_DE: "Plattform für Online P&P Spiele. Inklusive Charakterbögen, Sichtlinien, Würfelsimulation, Sprach/Videochat und mehr."
         },
         image: imgD20Server,
-        link: ""
+        link: "https://github.com/andre111/d20server"
     },
     {
         name: "Minicraft 3DS Homebrew Multiplayer Edition",
-        technologies: [ "C" ],
+        technologies: ["C"],
         description: {
             en_US: "Port of Minicraft to 3DS Homebrew with added local multiplayer",
             de_DE: "Port von Minicraft für 3DS Homebrew mit lokaler Multiplayer Funktion"
@@ -39,7 +39,7 @@ export const projects = [
     },
     {
         name: "Website",
-        technologies: [ "React", "Sass", "HTML" ],
+        technologies: ["React", "Sass", "HTML"],
         description: {
             en_US: "Source Code for this website",
             de_DE: "Quellcode dieser Webseite"
@@ -49,7 +49,7 @@ export const projects = [
     },
     {
         name: "Dynamic Sound Filters",
-        technologies: [ "Java", "OpenAL" ],
+        technologies: ["Java", "OpenAL"],
         description: {
             en_US: "Minecraft Mod adding dynamic effects to sounds like reverb and muffling based on dynamic environment scans",
             de_DE: "Minecraft Mod für Audioeffekte wie Hall und Verdeckung basierend auf dynamischen Umgebungsscans"
